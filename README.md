@@ -5,7 +5,7 @@ Annex to a written note on how a Feedback to Policy team can turn a broad questi
 ## What the notebook does
 
 1. Downloads the public CORDIS file of Horizon Europe projects and records the download date and a fingerprint of the file, so that results can be reproduced.
-2. Checks data quality: duplicates, missing fields, plausible dates and amounts. It repairs rows where the separator character appears inside the project description, and reports how many.
+2. Checks data quality: duplicates, missing fields, plausible dates and amounts. It repairs rows where the separator character appears inside the free-text columns (project description or keywords), checks that every repaired row has its fields in the right place, converts amounts written with a decimal comma, and compares the total EU contribution with the Commission's published figure.
 3. Reads the policy unit's topic definition: a small table of terms marked *core* or *related*. **The terms are illustrative** ('nature-based solutions'); in a real request the policy unit provides and confirms them.
 4. Selects the matching projects and records, for each one, which terms matched and in which fields.
 5. Summarises the portfolio: number of projects, maximum EU contribution, start year, type of action, coordinator country and project status. It also compares the selection with CORDIS's EU biodiversity spending tracker, to show whether an existing classification could replace the agreed definition.
