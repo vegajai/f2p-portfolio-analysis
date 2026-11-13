@@ -57,6 +57,10 @@ f2p-portfolio-analysis/
 - Figures reflect the file downloaded on the date recorded in the notebook.
 - EU contribution is the maximum amount committed in the grant agreement, not the amount paid.
 
+## How this was prepared
+
+A generative-AI assistant was used to search public sources, draft text and write the notebook code. The author took the decisions on scope, data and method, reviewed each part, ran and published the notebook, and is responsible for the content.
+
 ## Licence
 
 The code and text in this repository are licensed under the [European Union Public Licence v. 1.2](LICENSE) (EUPL-1.2).
